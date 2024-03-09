@@ -54,11 +54,7 @@ Contents:
 
 5. On the next step, select `Other account` and then `Scan with QR Code`
 6. On your desktop, click on `Show QR Code` and scan it with your phone
-
-   ![QR Code](./images/08-qr-reveal.png)
-
 7. If you successful, you have added a new account in your Auth app. Find the new account and enter the MFA number from your app into the `MFA code 1` input. Wait a few seconds until it expires and enter the new code into `MFA code 2`.
-
-   ![MFA](./images/09-mfa.png)
+   ![QR Code](./images/08-qr-reveal.png)
 
 8. Click on `Add MFA`. On success, you will be navigated to `My security credentials` dashboard and you will see your new device added under `Multi-factor authentication (MFA)`.
