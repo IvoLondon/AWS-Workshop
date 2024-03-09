@@ -40,21 +40,25 @@ Contents:
 ## Enable Multi-factor Authentication for your account (Optional, yet strongly advised - 5 min)
 
 1. Search for IAM in the search bar
+
    ![Enable MFA](./images/05-enable-mfa.png)
+
 2. On the IAM Dashboard, under Security recommendations, find and click on Add MFA
 
-![IAM dashboard](./images/06-iam-dashboard.png)
+   ![IAM dashboard](./images/06-iam-dashboard.png)
 
 3. If you don't have any Auth app, install [Microsoft Authenticator app](https://support.microsoft.com/en-gb/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a). In the `Device name` input, name your device e.g MyIPhone15. Press Next
 4. Open the app on your phone and click on the `+` in the top right corner.
 
-![Microsoft auth](./images/07-microsoft-auth.png)
+   ![Microsoft auth](./images/07-microsoft-auth.png)
 
 5. On the next step, select `Other account` and then `Scan with QR Code`
-6. On your desktop, click on `Show QR Code` and scan it with your phone camera
-   ![QR Code](08-qr-reveal.png).
+6. On your desktop, click on `Show QR Code` and scan it with your phone
+
+   ![QR Code](./images/08-qr-reveal.png)
+
 7. If you successful, you have added a new account in your Auth app. Find the new account and enter the MFA number from your app into the `MFA code 1` input. Wait a few seconds until it expires and enter the new code into `MFA code 2`.
 
-![MFA](./images/09-mfa.png)
+   ![MFA](./images/09-mfa.png)
 
 8. Click on `Add MFA`. On success, you will be navigated to `My security credentials` dashboard and you will see your new device added under `Multi-factor authentication (MFA)`.
